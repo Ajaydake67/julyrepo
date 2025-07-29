@@ -15,6 +15,7 @@ pipeline {
             # Run new container
             docker run -d -p 8081:80 --name julycontainer julyimage
         '''
+       }
     }
-  }
+  }  
 }
